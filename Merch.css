@@ -1,0 +1,260 @@
+html{
+    background: url(Trees.jpg) no-repeat center center fixed;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.Legende{
+
+    color: white;
+    margin-top: 80px;
+    float: left;
+    margin-left: 170px;
+
+}
+
+.LegendenPunkte{
+    float: left;
+    margin-left: 90px;
+    font-size: 25px;
+    border-style: solid;
+    border-color: white;
+    width: 150px;
+    text-align: center;
+    height:80px;
+
+}
+
+
+.LegendenPunkte:hover{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1,3);
+    transform: scale(1.3);
+}
+
+
+.TShirtPhillip{
+    height: 600px;
+    width: 1380px;
+    border-style: solid;
+    border-color: white;
+    margin-left: 260px;
+    float: left;
+}
+
+.TShirtVolcom{
+    height: 600px;
+    width: 1380px;
+    border-style: solid;
+    border-color: white;
+    margin-left: 260px;
+    float: left;
+}
+
+.TShirtDC{
+    height: 600px;
+    width: 1380px;
+    border-style: solid;
+    border-color: white;
+    margin-left: 260px;
+    float: left;
+}
+
+.TShirtCorbo{
+    height: 600px;
+    width: 1380px;
+    border-style: solid;
+    border-color: white;
+    margin-left: 260px;
+    float: left;
+}
+
+#TShirtBox{
+    height:500px;
+    width: 400px;
+    float:left;
+    margin-top: 50px;
+    margin-left: 45px;
+}
+
+
+
+.ProdukteBilder{
+    height: 100%;
+    width: 100%;
+    transition: transform .2s;
+    margin: 0 auto;
+}
+
+.ProdukteBilder:hover{
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.LegendeLinks{
+    text-decoration: none;
+    color: white;
+}
+
+.OverlayTshirt{
+
+
+    float: left;
+}
+
+.MarkeBox{
+    float: left;
+
+    margin-left: 260px;
+    margin-top: 70px;
+    color: white;
+    font-family: "";
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+button {
+    background-color: darkgreen;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    color: #ffffff !important;
+    background: #f6b93b;
+    border-color: #f6b93b !important;
+    transition: all 0.4s ease 0s;
+}
+
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 60px;
+}
+
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
+
+
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

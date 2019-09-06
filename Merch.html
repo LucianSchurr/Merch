@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Merch Hall</title>
+    <link rel="stylesheet" type="text/css" href="Merch.css">
+</head>
+
+<body>
+
+
+
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+<div id="id01" class="modal">
+
+    <form class="modal-content animate">
+
+
+        <div class="container">
+
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+            <button type="submit">Login</button>
+
+            <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+
+        </div>
+
+
+        <div class="container" style="background-color:#f1f1f1">
+            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+
+
+    </form>
+
+</div>
+
+
+
+
+
+
+    <div class="Legende">
+
+        <div class="LegendenPunkte" id="T-Shirt">
+
+            <a class="LegendeLinks" href=""><p>T-Shirt</p></a>
+
+        </div>
+
+        <div class="LegendenPunkte" id="Hoodie">
+
+            <a class="LegendeLinks" href=""><p>Hoodie</p></a>
+
+        </div>
+
+        <div class="LegendenPunkte" id="Schuhe">
+
+            <a class="LegendeLinks" href=""><p>Boots</p></a>
+
+        </div>
+
+        <div class="LegendenPunkte" id="Sport">
+
+            <a class="LegendeLinks" href=""><p>Sport</p></a>
+
+        </div>
+
+        <div class="LegendenPunkte" id="Accessoires">
+
+            <a class="LegendeLinks" href=""><p>Accessoires</p></a>
+
+        </div>
+
+        <div class="LegendenPunkte" id="Hosen">
+
+            <a class="LegendeLinks" href=""><p>Trousers</p></a>
+
+        </div>
+
+    </div>
+
+
+
+
+
+<div class="OverlayTshirt">
+    <div class="MarkeBox">
+        <p>PHILIPP PLEIN</p>
+    </div>
+    <div class="TShirtPhillip">
+
+        <div id="TShirtBox">
+
+            <img class="ProdukteBilder" src="PhillipTShirt1.jpg">
+
+        </div>
+
+        <div id="TShirtBox">
+
+            <img class="ProdukteBilder" src="PhillipTShirt2.jpg">
+
+        </div>
+
+        <div id="TShirtBox">
+
+            <img class="ProdukteBilder" src="PhillipTShirt3.jpg">
+
+        </div>
+    </div>
+    </div>
+
+    <div class="MarkeBox">
+        <p>VOLCOM</p>
+    </div>
+    <div class="TShirtVolcom">
+
+        <div id="TShirtBox">
+
+            <img class="ProdukteBilder" src="VolShirt1.jpg">
+
+        </div>
+
+        <div id="TShirtBox">
+
+            <img class="ProdukteBilder" src="VolShirt2.jpg">
+
+        </div>
+
+        <div id="TShirtBox">
+
+            <img class="ProdukteBilder" src="VolShirt3.jpg">
+
+        </div>
+
+    </div>
+
+    <div class="MarkeBox">
+        <p>DC</p>
+    </div>
+    <div class="TShirtDC">
+
+        <div id="TShirtBox">
+
+            <img class="ProdukteBilder" src="DCShirt1.jpg">
+
+        </div>
+
+        <div id="TShirtBox">
+
+            <img class="ProdukteBilder" src="DCShirt2.jpg">
+
+        </div>
+
+        <div id="TShirtBox">
+
+            <img class="ProdukteBilder" src="DCShirt3.jpg">
+
+        </div>
+
+    </div>
+
+
+    <div class="MarkeBox">
+        <p>CORBO</p>
+    </div>
+    <div class="TShirtCorbo">
+
+        <div id="TShirtBox">
+
+            <img class="ProdukteBilder" src="corboShirt1.jpg">
+
+        </div>
+
+        <div id="TShirtBox">
+
+            <img class="ProdukteBilder" src="corboShirt2.jpg">
+
+        </div>
+
+        <div id="TShirtBox">
+
+            <img class="ProdukteBilder" src="corboShirt3.jpg">
+
+        </div>
+
+    </div>
+
+</div>
+
+    <script type="text/javascript">
+
+
+        var modal = document.getElementById('id01');
+
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>
